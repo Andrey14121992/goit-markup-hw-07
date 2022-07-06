@@ -15,8 +15,12 @@
     background-size: cover;
   }
   
-  
-  .svg-container {
+  .qualities {
+    padding-bottom: 94px;
+  }
+
+
+  .qualities__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +73,7 @@
     }
     
   
-  .main-pretitle {
+  .qualities__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -79,7 +83,7 @@
   color: #212121;
   }
   
-  .main-pretitle-description {
+  .qualities__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -87,7 +91,5 @@
   color: #757575;
   }
   
-  .qualitys {
-    padding-bottom: 94px;
-  }
+ 
   

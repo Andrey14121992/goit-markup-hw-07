@@ -239,7 +239,11 @@ a {
   background-size: cover;
 }
 
-.svg-container {
+.qualities {
+  padding-bottom: 94px;
+}
+
+.qualities__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -285,7 +289,7 @@ a {
   background-color: #188CE8;
 }
 
-.main-pretitle {
+.qualities__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -295,7 +299,7 @@ a {
   color: #212121;
 }
 
-.main-pretitle-description {
+.qualities__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -303,25 +307,31 @@ a {
   color: #757575;
 }
 
-.qualitys {
-  padding-bottom: 94px;
-}
-
 /*----------Action-section-------*/
-.action {
+.work__list {
   display: flex;
   justify-content: space-between;
 }
 
-.action-section {
+.work {
   padding-bottom: 94px;
 }
 
-.work-box {
+.work__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.work__box {
   position: relative;
 }
 
-.work-tab {
+.work__tab {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -329,7 +339,7 @@ a {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.work-text {
+.work__text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -380,7 +390,7 @@ a {
   fill: currentColor;
 }
 
-.about-us {
+.our-team__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -390,12 +400,12 @@ a {
   color: #212121;
 }
 
-.team-list {
+.our-team__list {
   display: flex;
   margin-right: -30px;
 }
 
-.out-team {
+.our-team {
   background: #F5F4FA;
 }
 
@@ -406,7 +416,7 @@ a {
   margin-right: 30px;
 }
 
-.image-text {
+.our-team__text {
   padding: 30px 5px;
 }
 

@@ -38,30 +38,27 @@
     fill: currentColor;
   }
     
+  .our-team__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    }
   
-  
-  
-  
-  
-  .about-us {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  
-  color: #212121;
-  }
-  
-  .team-list {
+  .our-team__list {
     display: flex;
   margin-right: -30px;
   }
   
-  .out-team {
+  .our-team {
   background: #F5F4FA;
   }
+  
+
   
   .photo-boxes{
     background: #FFFFFF;
@@ -71,7 +68,7 @@
   }
   
   
-  .image-text {
+  .our-team__text {
     padding: 30px 5px;
   }
   
