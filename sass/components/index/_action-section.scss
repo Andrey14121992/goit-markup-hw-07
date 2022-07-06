@@ -1,0 +1,42 @@
+/*----------Action-section-------*/
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    .action-section {
+    padding-bottom: 94px;
+    }
+    
+    
+    .work-box{
+      position: relative;
+    }
+    
+    .work-tab {
+      position: absolute;
+        bottom: 0;
+        left: 0;
+    
+        width: 100%;
+      background: rgba(47, 48, 58, 0.8);
+    
+    }
+    
+    .work-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        height: 70px;
+      width: 100%;
+      font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+      color: #FFFFFF;
+    }
